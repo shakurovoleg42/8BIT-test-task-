@@ -71,9 +71,9 @@ ul {
 .about {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-image: linear-gradient(45deg, #ff8a00, #e52e71, #9b26af);
+  background-image: linear-gradient(45deg, #d183a0, #44a4b0, #9b26af);
   background-size: 200% 200%;
-  animation: gradientAnimation 10s ease infinite;
+  animation: gradientAnimation 800s ease infinite;
 }
 
 @keyframes gradientAnimation {
@@ -110,3 +110,20 @@ ul {
   flex: 1;
   padding-left: 40px;
 }
+
+.to-contacts {
+  display: flex;
+  justify-content: center; /* добавляем выравнивание по центру */
+  margin-top: 10px;
+}
+
+.to-contacts a {
+  display: inline-block;
+  background-color: #00aaff;
+  color: #fff;
+  padding: 20px 20px;
+  text-decoration: none;
+  border-radius: 20px; /* добавляем закругление */
+  margin-top: 40px;
+}
+
