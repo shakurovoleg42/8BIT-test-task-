@@ -71,7 +71,7 @@ ul {
 .about {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-image: linear-gradient(45deg, #d183a0, #44a4b0, #9b26af);
+  background-image: linear-gradient(45deg, #d183a0, #44a4b0, #b62cce);
   background-size: 200% 200%;
   animation: gradientAnimation 800s ease infinite;
 }
@@ -114,7 +114,7 @@ ul {
 .to-contacts {
   display: flex;
   justify-content: center; /* добавляем выравнивание по центру */
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
 .to-contacts a {
@@ -127,3 +127,60 @@ ul {
   margin-top: 40px;
 }
 
+/*PRODUCTS*/
+.products {
+  position: sticky;
+  top: 0;
+  height: 60vh;
+  background-image: linear-gradient(45deg, #d183a0, #44a4b0, #b62cce);
+}
+
+.works {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.carousel-container {
+  width: 97vw;
+  height: calc(100% - 40px);
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.carousel-images {
+  display: flex;
+  animation: carousel-animation 60s infinite linear;
+}
+
+.carousel-images img {
+  width: auto;
+  height: 100%;
+  margin-right: 2vw;
+}
+
+@keyframes carousel-animation {
+  0% {
+    transform: translateX(0);
+  }
+
+  25% {
+    transform: translateX(-100%);
+  }
+
+  50% {
+    transform: translateX(-66.66%);
+  }
+
+  75% {
+    transform: translateX(-33.33%);
+  }
+
+   /* Добавляем дополнительные ключевые кадры для замыкания карусели */
+  100% {
+    transform: translateX(0);
+  }
+}
