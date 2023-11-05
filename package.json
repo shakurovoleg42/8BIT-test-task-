@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx webpack --mode development",
+    "build": "npx webpack-dev-server --mode production"
   },
   "author": "",
   "license": "ISC",
+  "description": "",
   "devDependencies": {
-
-  },
-  "description": ""
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "style-loader": "^3.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  }
 }
