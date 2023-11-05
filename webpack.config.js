@@ -8,7 +8,11 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         clean: true,
     },
-    plugins: [new HtmlWebpackPlugin()],
+    plugins: [
+      new HtmlWebpackPlugin({
+        template: './src/index.html',
+      }),
+    ],
     module: {
         rules: [
           {
@@ -16,5 +20,19 @@ module.exports = {
             use: ["style-loader", "css-loader"],
           },
         ],
+    },
+    devServer: {
+      port: 3000,
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Content-Type": "text/css"
+      }
+    },
+    devServer: {
+      port: 3000,
+      headers: {
+        "Access-Control-Allow-Origin": "*",
+        "Content-Type": "application/javascript"
+      }
     },
 };

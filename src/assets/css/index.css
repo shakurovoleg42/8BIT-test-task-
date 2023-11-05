@@ -10,28 +10,28 @@ body {
   background-attachment: fixed;
 }
 p {
-    margin: 0;
-    font-size: 2.2rem;
-    color: f2f2f2;
+  margin: 0;
+  font-size: 2.2rem;
+  color: f2f2f2;
 }
 h1 {
-    font-size: 5.4rem;
+  font-size: 5.4rem;
 }
 h2 {
-    font-size: 4.0rem;
+  font-size: 4.0rem;
 }
 h3 {
-    font-size: 3.5rem;
+  font-size: 3.5rem;
 }
 h4 {
-    font-size: 1.8rem;
-    color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+  color: rgb(255, 255, 255);
 }
 h1,
 h2,
 h3,
 h4 {
-    font-family: 'Circe Extra Bold', sans-serif;
+  font-family: 'Circe Extra Bold', sans-serif;
 }
 
 .header {
@@ -82,6 +82,7 @@ ul {
 .about {
   padding-top: 50px;
   padding-bottom: 50px;
+  box-shadow: 0px 8px 20px rgba(0, 170, 255, 0.583);
 }
 
 .expert-inner__title {
@@ -154,29 +155,32 @@ ul {
 }
 
 .services p::before {
-    content: "\2022 \2022 \2022";
-    color: #e52e71;
-    display: block;
-    position: relative;
-    top: -25px;
-    text-align: center;
+  content: "\2022 \2022 \2022";
+  color: #e52e71;
+  display: block;
+  position: relative;
+  top: -25px;
+  text-align: center;
 }
 
 .works {
   position: absolute;
-  top: calc(100% - 500px); /* изменено значение top */
+  top: calc(100% - 500px);
   left: 50%;
   transform: translateX(-50%);
   font-size: 24px;
   font-weight: bold;
   color:cadetblue;
+  box-shadow: 0px 8px 20px rgba(0, 170, 255, 0.5);
+
 }
 
 .carousel-container {
   width: 97vw;
-  height: calc(100% - (40px + 15px)); /* изменено значение height */
-  margin-top: 15px; /* изменено значение margin-top */
+  height: calc(100% - (40px + 15px));
+  margin-top: 15px;
   overflow: hidden;
+
 }
 
 .carousel-images {
@@ -191,45 +195,46 @@ ul {
 }
 
 @keyframes carousel-animation {
-      0% {
+  0% {
     transform: translateX(0);
-      }
+  }
 
-      25% {
+  25% {
     transform: translateX(-100%);
-      }
+  }
 
-      50% {
+  50% {
     transform: translateX(-66.66%);
-      }
+  }
 
-      75% {
+  75% {
     transform: translateX(-33.33%);
-      }
+  }
 
-      100% {
+  100% {
     transform: translateX(0);
-      }
+  }
 }
 
 .consultation {
-    display:flex; 
-    flex-direction:column; 
-    justify-content:center; 
-    align-items:center; 
-    text-align:center; 
-    /* background-color:silver;  */
-    margin-top:-2rem; /* добавлено отрицательное значение margin-top */
+  display:flex; 
+  flex-direction:column; 
+  justify-content:center; 
+  align-items:center; 
+  text-align:center;
+  margin-top:-2rem;
+  box-shadow: 0px 2px 38px rgba(0, 170, 255, 0.5);
+
 }
 
 .consultation h2 {
-    margin-bottom:8rem;
+  margin-bottom:8rem;
 }
 
 .consultation h2, .consultation .p-heading {
-    padding-top:50px; 
-    text-align:center;
-    color: #fff;
+  padding-top:50px; 
+  text-align:center;
+  color: #fff;
 }
 
 .consultation .input-wrapper {
@@ -239,30 +244,30 @@ ul {
 }
 
 .consultation input {
-    width:30%; 
-    padding:1.5rem 4rem; 
-    border:none; 
-    border-radius:50px; 
-    margin-bottom:3rem;
+  width:30%; 
+  padding:1.5rem 4rem; 
+  border:none; 
+  border-radius:50px; 
+  margin-bottom:3rem;
 }
 
 .consultation input::placeholder {
-    color:black; 
-    font-family:'Circe Bold', sans-serif;
+  color:black; 
+  font-family:'Circe Bold', sans-serif;
 }
 
 .consultation .input-text {
-    display:block; 
-    width:100%;
+  display:block; 
+  width:100%;
 }
 
 .consultation .button-order {
-    background-image:linear-gradient(66deg, #a12ab1 0%, #c818bc 100%); 
-    box-shadow:0px 15px 30px 0px rgba(170, 38, 183, 0.39); 
-    font-size:1.5rem; 
-    padding:1.5rem 2rem; 
-    color:#ffffff; 
-    border:2px solid #c51abb; 
-    background-color:transparent; 
-    border-radius:30px;
+  background-image:linear-gradient(66deg, #a12ab1 0%, #c818bc 100%); 
+  box-shadow:0px 15px 30px 0px rgba(170, 38, 183, 0.39); 
+  font-size:1.5rem; 
+  padding:1.5rem 2rem; 
+  color:#ffffff; 
+  border:2px solid #c51abb; 
+  background-color:transparent; 
+  border-radius:30px;
 }
