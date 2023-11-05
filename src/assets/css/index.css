@@ -3,11 +3,16 @@
 }
 
 body {
-    font-family: 'Circe Regular', sans-serif;
+  font-family: 'Circe Regular', sans-serif;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 p {
     margin: 0;
     font-size: 2.2rem;
+    color: f2f2f2;
 }
 h1 {
     font-size: 5.4rem;
@@ -20,7 +25,7 @@ h3 {
 }
 h4 {
     font-size: 1.8rem;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 h1,
 h2,
@@ -42,6 +47,8 @@ h4 {
 .logo {
   font-size: 32px;
   font-weight: bold;
+  color: rgb(142, 45, 142);
+  text-decoration: none;
 }
 
 ul {
@@ -66,17 +73,21 @@ ul {
 
 .menu__list-item a:hover {
   text-decoration: underline;
+  font-size: calc(18px * 1.1);
+  transition-property: text-decoration, font-size; 
+  transition-duration: 0.3s; 
+  transition-timing-function: ease-in-out; 
 }
 
 .about {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-image: linear-gradient(to right, #ff8a00, #e52e71);
 }
 
 .expert-inner__title {
   padding-left: 20px;
   padding-bottom: 81px;
+  color: #f65c5c;
 }
 
 .text-with-image {
@@ -93,6 +104,7 @@ ul {
 .text-with-image p {    
   flex: 1;
   padding-left: 40px;
+  color: #fff;
 }
 
 .to-contacts {
@@ -108,35 +120,25 @@ ul {
   text-decoration: none;
   border-radius: 20px;
   margin-top: 40px;
+  box-shadow: 0px 8px 20px rgba(0, 170, 255, 0.5);
 }
 
 /*PRODUCTS*/
 .products {
   position: relative;
-  /* height: 60vh; */
-  background-image: linear-gradient(to right, #00b7ff, #e52e71);
 }
 
 .services {
   padding: 20px;
   font-size: 16px;
   line-height: 1.5;
-  background-color: #f9f9f9;
-  border-radius: 10px;
-  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.services {
-  padding: 20px;
-  font-size: 16px;
-  line-height: 1.5;
-  background-color: #f9f9f9;
   border-radius: 10px;
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .services p {
   margin-bottom: 15px;
+  color: #fff;
 }
 
 .services p:first-child {
@@ -167,6 +169,7 @@ ul {
   transform: translateX(-50%);
   font-size: 24px;
   font-weight: bold;
+  color:cadetblue;
 }
 
 .carousel-container {
@@ -215,7 +218,7 @@ ul {
     justify-content:center; 
     align-items:center; 
     text-align:center; 
-    background-color:silver; 
+    /* background-color:silver;  */
     margin-top:-2rem; /* добавлено отрицательное значение margin-top */
 }
 
@@ -226,6 +229,7 @@ ul {
 .consultation h2, .consultation .p-heading {
     padding-top:50px; 
     text-align:center;
+    color: #fff;
 }
 
 .consultation .input-wrapper {
