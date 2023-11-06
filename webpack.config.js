@@ -23,11 +23,11 @@ module.exports = {
   },
   devServer: {
     port: 3000,
-    // headers: {
-    //   "Access-Control-Allow-Origin": "*",
-    //   "Content-Type": "text/css",
-    //   "Content-Type": "application/javascript",
-    //   "Content-Type": "text/html; charset=UTF-8"
-    // }
+    headers: {
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "text/css",
+      "Content-Type": "application/javascript",
+      "Content-Type": "text/html; charset=UTF-8"
+    }
   },
 };
