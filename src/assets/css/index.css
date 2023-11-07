@@ -42,6 +42,8 @@ h4 {
   align-items: center;
   background-image: linear-gradient(to right, #ff8a00, #e52e71);
   color: white;
+  box-shadow: 0px 25px 50px rgba(0, 170, 255, 0.5);
+
 }
 
 .logo {
@@ -82,7 +84,7 @@ ul {
 .about {
   padding-top: 50px;
   padding-bottom: 50px;
-  box-shadow: 0px 8px 20px rgba(0, 170, 255, 0.583);
+  box-shadow: 0px 0px 100px rgba(0, 170, 255, 0.5);
 }
 
 .expert-inner__title {
@@ -124,7 +126,6 @@ ul {
   box-shadow: 0px 8px 20px rgba(0, 170, 255, 0.5);
 }
 
-/*PRODUCTS*/
 .products {
   position: relative;
 }
@@ -140,6 +141,8 @@ ul {
 .services p {
   margin-bottom: 15px;
   color: #fff;
+  box-shadow: 0px 8px 20px rgba(0, 170, 255, 0.5);
+
 }
 
 .services p:first-child {
@@ -168,11 +171,10 @@ ul {
   top: calc(100% - 500px);
   left: 50%;
   transform: translateX(-50%);
-  font-size: 24px;
+  font-size: 42px;
   font-weight: bold;
   color:cadetblue;
-  box-shadow: 0px 8px 20px rgba(0, 170, 255, 0.5);
-
+  box-shadow: 0px 0px 50px rgb(199, 237, 75);
 }
 
 .carousel-container {
@@ -180,7 +182,6 @@ ul {
   height: calc(100% - (40px + 15px));
   margin-top: 15px;
   overflow: hidden;
-
 }
 
 .carousel-images {
@@ -214,6 +215,7 @@ ul {
   100% {
     transform: translateX(0);
   }
+  
 }
 
 .consultation {
@@ -223,7 +225,8 @@ ul {
   align-items:center; 
   text-align:center;
   margin-top:-2rem;
-  box-shadow: 0px 2px 38px rgba(0, 170, 255, 0.5);
+  box-shadow: 0px 0px 38px rgba(0, 170, 255, 0.5);
+
 
 }
 
@@ -249,6 +252,8 @@ ul {
   border:none; 
   border-radius:50px; 
   margin-bottom:3rem;
+  box-shadow: 0px 0px 30px rgb(208, 237, 112);
+
 }
 
 .consultation input::placeholder {
@@ -270,4 +275,47 @@ ul {
   border:2px solid #c51abb; 
   background-color:transparent; 
   border-radius:30px;
+  box-shadow: 0px 0px 38px rgba(0, 170, 255, 0.5);
+
+}
+
+.footer {
+  padding: 4rem 0 3rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 38px rgba(0, 170, 255, 0.5);
+  
+}
+.footer th {
+  padding: 0.5rem;
+  padding-bottom: 2.5rem;
+  font-family: 'Circe Extra Bold', sans-serif;
+  font-size: 1.6rem;
+}
+.footer td {
+  padding: 0.5rem;
+  padding-right: 6rem;
+  font-size: 1.3rem;
+}
+.footer p {
+  text-align: right;
+  color: #ffffff;
+  font-family: 'Circe Bold', sans-serif;
+}
+.footer p a {
+  color: inherit;
+  text-decoration: underline;
+}
+.footer .phone {
+  font-size: 2.6rem;
+  font-family: 'Circe Extra Bold', sans-serif;
+}
+.footer .phone-whatsapp {
+  font-size: 1.8rem;
+  margin: 1rem 0;
+}
+.footer .modernwebdev {
+  margin-top: 1rem;
+  box-shadow: 0px 0px 50px rgb(199, 237, 75);
 }
