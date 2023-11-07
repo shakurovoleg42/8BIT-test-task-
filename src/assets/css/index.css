@@ -285,7 +285,6 @@ ul {
   justify-content: center;
   align-items: center;
   box-shadow: 0px 0px 38px rgba(0, 170, 255, 0.5);
-  
 }
 .footer th {
   padding: 0.5rem;
@@ -299,9 +298,9 @@ ul {
   font-size: 1.3rem;
 }
 .footer p {
-  text-align: right;
   color: #ffffff;
   font-family: 'Circe Bold', sans-serif;
+
 }
 .footer p a {
   color: inherit;
