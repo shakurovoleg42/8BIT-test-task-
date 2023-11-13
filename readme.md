@@ -2,7 +2,8 @@
 
 📦 Installation
 Clone the explainme repository:
-git clone https://github.com/shakurovoleg42/8BIT-test-task-
+```
+git clone https://github.com/shakurovoleg42/8BIT-test-task-```
 
 Install the dependencies: 
 ```npm install```
