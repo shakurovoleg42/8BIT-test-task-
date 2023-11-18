@@ -1,6 +1,6 @@
 import '../css/index.css';
 
-const links = document.querySelectorAll('.header a');
+const links = document.querySelectorAll('a');
 
 links.forEach(link => {
   link.addEventListener('click', (event) => {
